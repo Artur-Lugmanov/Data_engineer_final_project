@@ -1,0 +1,2 @@
+0 10 * * * python3 /home/de3at/lugm/main.py run_increment
+5 10 * * * python3 /home/de3at/lugm/main.py make_report
