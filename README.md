@@ -28,4 +28,10 @@
 4. Попытка подбора суммы. В течение 20 минут проходит более 3х операций со следующим шаблоном – каждая последующая меньше предыдущей, при этом отклонены все кроме последней. Последняя операция (успешная) в такой цепочке считается мошеннической.
 
 ### Решение задачи
-[main.py](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/main.py)
+Результаты работы находятся в следующих файлах:
+[main.py](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/main.py)           Файл с основным процессом обработки
+[sql_scripts](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/tree/main/sql_scripts)   SQL скрипты, вынесенные в отдельные файлы
+   [DDL.sql](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/sql_scripts/DDL.sql)       SQL скрипт, для создания необходимых таблиц в DWH
+   [report.sql](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/sql_scripts/report.sql) SQL скрипт, для подготовки отчета по мошенническим операциям
+[main.cron](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/main.cron)       Файл для постановки процесса на расписание в формате crontab
+[archive](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/tree/main/archive)           Каталог для перемещения обработанных файлов 
