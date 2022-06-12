@@ -28,4 +28,4 @@
 4. Попытка подбора суммы. В течение 20 минут проходит более 3х операций со следующим шаблоном – каждая последующая меньше предыдущей, при этом отклонены все кроме последней. Последняя операция (успешная) в такой цепочке считается мошеннической.
 
 ### Решение задачи
-[main.py](http://sabaka.net](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/main.py)
+[main.py]([http://sabaka.net](https://github.com/Artur-Lugmanov/Data_engineer_final_project_SberUniversity/blob/main/main.py])
